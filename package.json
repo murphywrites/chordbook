@@ -1,0 +1,37 @@
+{
+  "name": "chordbook",
+  "version": "1.0.0",
+  "description": "input ultimate guitar chords, get pdf page back",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --config ./webpack.config.js --mode development --port 4000"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murphywrites/chordbook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/murphywrites/chordbook/issues"
+  },
+  "homepage": "https://github.com/murphywrites/chordbook#readme",
+
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "react-hot-loader": "^4.13.0",
+    "webpack": "^5.41.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
